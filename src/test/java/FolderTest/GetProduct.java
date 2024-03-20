@@ -37,6 +37,6 @@ public class GetProduct extends BaseTest {
         Assert.assertTrue(productName.getText().contains("Sony vaio i5"), "Product does not found");
 
         // Close the browser window
-        driver.get().quit();
+//        driver.get().quit();
     }
 }
